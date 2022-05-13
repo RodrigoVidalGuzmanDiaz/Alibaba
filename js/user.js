@@ -1,5 +1,5 @@
-let user = [
-  /*ID_de_usuario*/ /*nombre_usuario*/  /*contraseña*/  /*nombre_completo*/             /*dirección*/                   /*correo_lectronico*/           /*telefono*/
+  export let user = [
+  /*ID_de_usuario*/ /*nombre_usuario*/  /*contraseña*/  /*nombre_completo*/             /*dirección*/                   /*correo_electronico*/           /*telefono*/
     [100,           'anna0',            'white00',      'Anna Addison',     '1325 Candy Rd, San Francisco, CA 96123',   'anna.addison@yahoo.com',       '3841019535'],
     [101,           'carol1',           'orange01',     'Carol Campbell',   '1931 Brown St, Gainesville, FL 85321',     'carol.campbell@aol.com',       '2548952651'],
     [102,           'julia2',           'yellow02',     'Julia Jones',      '1622 Seaside St, Seattle, WA 32569',       'jolie.jones@msn.com',          '3651469235'],

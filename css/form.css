@@ -1,0 +1,62 @@
+
+.formulario{
+    width: 27rem;
+    height: 22rem;
+    background-color: #fff;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 0.5rem;
+    border: 1px solid #B64B93;
+}
+.titulo{
+    color: #C06CA8;
+    font-weight: 900;
+    font-size: 1.9rem;
+    margin: 1rem;
+}
+.texto{
+    font-size: 0.85rem;
+    margin: 0rem 0 0rem 0;
+}
+.entradas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    align-items: flex-start;
+}
+.Nombre, .Email{
+    margin-top: 1rem;
+}
+.detalle{
+    display: flex;
+    flex-direction: row;
+}
+.asterisco{
+    color: #B64B93;
+}
+label input{
+    border: 1px solid #B64B93;
+    border-radius: 0.2rem;
+    width: 23rem;
+    height: 2.2rem;
+    background-color: transparent;
+    outline: none;
+    font-size: 0.7rem;
+    padding: 1rem;
+}
+.entrar{
+    background-color: #B64B93;
+    border: none;
+    color: #fff;
+    width: 23rem;
+    height: 3rem;
+    cursor: pointer;
+
+    margin: 1rem auto;
+    border-radius: 0.8rem;
+}
