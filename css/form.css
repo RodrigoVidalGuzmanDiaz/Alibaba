@@ -1,7 +1,57 @@
+.section-login{
+    /* aparence */
+    max-width:100rem;
+    height: 55rem;
+    border-radius: 0.3rem;
 
+    /* element position */
+    margin: auto;
+    margin-top: 5rem;
+
+    /* items position */
+    display: none;
+}
+.section-login_banner {
+    /* aparence */
+    max-width: 50rem;
+    height: 100%;
+}
+.section-login_banner img {
+    /* aparence */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* FORMULARIO */
+.titulo{
+    color: #C06CA8;
+    font-weight: 900;
+    font-size: 1.9rem;
+    margin: 1rem;
+}
+.boton{
+    /* aparence */
+    background-color: #B64B93;
+    border: none;
+    color: #fff;
+    width: 23rem;
+    height: 3rem;
+    cursor: pointer;
+
+    margin: 1rem auto;
+    border-radius: 0.8rem;
+
+    /* items position */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
 .formulario{
     width: 27rem;
-    height: 22rem;
+    height: 24rem;
     background-color: #fff;
     
     display: flex;
@@ -12,12 +62,7 @@
     border-radius: 0.5rem;
     border: 1px solid #B64B93;
 }
-.titulo{
-    color: #C06CA8;
-    font-weight: 900;
-    font-size: 1.9rem;
-    margin: 1rem;
-}
+
 .texto{
     font-size: 0.85rem;
     margin: 0rem 0 0rem 0;
@@ -49,14 +94,15 @@ label input{
     font-size: 0.7rem;
     padding: 1rem;
 }
-.boton_entrar{
+.siguiente{
+    display: none;
+    text-decoration: none;
+    padding: 0.1rem;
     background-color: #B64B93;
-    border: none;
-    color: #fff;
-    width: 23rem;
-    height: 3rem;
-    cursor: pointer;
+    color: white;
+    font-weight: 400;
 
-    margin: 1rem auto;
-    border-radius: 0.8rem;
+}
+.activar{
+    display: block;
 }

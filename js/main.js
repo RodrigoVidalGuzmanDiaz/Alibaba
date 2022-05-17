@@ -1,30 +1,16 @@
-/*Inicio de sesión*/
 
+import {login} from "./login.js"
 
-/* Libreria temporal*/
-import {data} from "./user.js";
+function verificación(o) {
+    o.preventDefault();
 
-import {login} from "./login.js";
+    var email = document.querySelector("#email").value;
+    var password = document.querySelector("#password").value;
 
-
-/*var user = document.getElementById('username').value;
-var password = document.getElementById('password').value;*/
-    let email = 'carol.campbell@aol.com';
-    let password = "orange01";
-   
-    let entrar = document.getElementById('entrar').addEventListener("click", entra);
-
-    function entra(){
-    
-    if(email = true, password = true){
-        
-        login(email, password);
-        console.log('puedes continuar');
-    }
+    //Programa login
+    login(email,password);
 }
 
-
-
-
-/*Login del programa*/
-
+// Acción del boton
+var bt_entrar = document.querySelector("#log");
+bt_entrar.addEventListener('submit',verificación);

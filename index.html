@@ -4,52 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://goo.su/0LtQN">
+    <title>Alibaba</title>
 
-    <!--Tipografía-->
+    <!-- Archivo de fuente de texto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-    <!--conexion css-->
+    <!-- Archivos CSS -->
     <link rel="stylesheet" href="./css/configuracion.css">
     <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/siguiente.css">
 
-    <title>Alíbaba</title>
 </head>
 <body>
-    
-        <!--formulario-->
-        <section class="todo">
-            <form action="">
-                <div class="formulario">
 
-                    <h2 class="titulo">Formualario de Contacto</h2>
-                    <p class="texto">Escríbenos en breve los prondremos en contacto contigo </p>
+    <section class=" todo">
 
-                <div class="entradas">
-                    <div class="Email">
-                        <label for="">
-                            <div class="detalle">Email<p class="asterisco">*</p></div> <br>
-                            <input type="text" placeholder="Escribe tu Email" id="Email">
-                        </label>
-                    </div>
+        <form class="form-login" action="" id="log" autocomplete="off">
+            <div class="formulario">
 
-                    <div class="Password">
-                        <label for="">
-                            <div class="detalle">Contraseña<p class="asterisco">*</p></div> <br>
-                            <input type="password" placeholder="Escribe tu Contraseña" id="password">
-                           
-                        </label>
-                    </div>
-                    <button class="boton_entrar" id="entrar">Entrar</button>
+                <h2 class="titulo">Formualario de Contacto</h2>
+                <p class="texto">Escríbenos en breve los prondremos en contacto contigo</p>
+
+            <div class="entradas">
+                <div class="Email">
+                    <label class="label-username" for="">
+                        <div class="detalle">Email<p class="asterisco">*</p></div> <br>
+                        <input type="text" placeholder="Escribe tu Email" id="email">
+                    </label>
                 </div>
 
+                <div class="Password">
+                    <label for="">
+                        <div class="detalle">Contraseña<p class="asterisco">*</p></div> <br>
+                        <input type="password" placeholder="Escribe tu Contraseña" id="password">
+                       
+                    </label>
                 </div>
+                <button class="boton">Entrar</button>
+                <a href="https://www.google.com/?gws_rd=ssl" class="siguiente" id="siguiente">Siguiente</a>
+            </div>
 
-            </form>
-        </section>
-    <!--Archivos de comprobación-->
+            </div>
+        </form>
+
+    </section>
+
     <script src="./js/main.js" type="module"></script>
 </body>
 </html>
