@@ -19,16 +19,18 @@
 */
 
 
-export function login(data, user){
-    for(let i = 0;i<=6;i++){
+export function login(email, password){
+
+
+    for(let i = 0;i<=7;i--){
 
         /*Comporobacion del username*/
-        if(data[i][1] === user){
-            console.log("Acceso con nombre de usuario");
-        }else if(data[i][5] === user){
-            console.log("true email");
+        if(data[i][5] === document.getElementById('Email').value){
+            console.log('puedes continuar');
+        }else if(data[i][2] === document.getElementById('password').value){
+            console.log('puedes continuar');
         }else{
-            console.log("user false");
+            console.log('espera porfavor')
         }
     }
 }

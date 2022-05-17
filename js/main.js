@@ -2,23 +2,29 @@
 
 
 /* Libreria temporal*/
-import {user} from "./user.js";
+import {data} from "./user.js";
 
 import {login} from "./login.js";
 
 
-var entrar = document.getElementById('entrar')
+/*var user = document.getElementById('username').value;
+var password = document.getElementById('password').value;*/
+    let email = 'carol.campbell@aol.com';
+    let password = "orange01";
+   
+    let entrar = document.getElementById('entrar').addEventListener("click", entra);
 
-
-
-
-function entra(){
-    entrar.classList.add('entra');
-    let user_input = 'carol.campbell@aol.com';
-    let pass = "1234";
-
-    login(user, user_input);
+    function entra(){
+    
+    if(email = true, password = true){
+        
+        login(email, password);
+        console.log('puedes continuar');
+    }
 }
-if(entrar = true){
-    console.log('funcionoooo');
-}
+
+
+
+
+/*Login del programa*/
+

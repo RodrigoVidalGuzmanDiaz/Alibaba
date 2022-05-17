@@ -29,7 +29,7 @@
 
     align-items: flex-start;
 }
-.Nombre, .Email{
+.Email, .Password{
     margin-top: 1rem;
 }
 .detalle{
@@ -49,7 +49,7 @@ label input{
     font-size: 0.7rem;
     padding: 1rem;
 }
-.entrar{
+.boton_entrar{
     background-color: #B64B93;
     border: none;
     color: #fff;
