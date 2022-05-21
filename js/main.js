@@ -1,14 +1,16 @@
 
 import {login} from "./login.js"
+import {verContraseña} from "./login.js"
+
 
 function verificación(o) {
     o.preventDefault();
 
-    var email = document.querySelector("#email").value;
+    var username = document.querySelector("#username").value;
     var password = document.querySelector("#password").value;
 
     //Programa login
-    login(email,password);
+    login(username,password);
 }
 
 // Acción del boton

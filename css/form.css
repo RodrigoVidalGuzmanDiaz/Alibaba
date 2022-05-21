@@ -25,28 +25,21 @@
 
 /* FORMULARIO */
 .titulo{
-    color: #C06CA8;
+    color: #FE963F;
     font-weight: 900;
     font-size: 1.9rem;
     margin: 1rem;
 }
 .boton{
     /* aparence */
-    background-color: #B64B93;
+    background-color: #FE963F;
     border: none;
     color: #fff;
-    width: 23rem;
-    height: 3rem;
+    width: 7rem;
+    height: 2rem;
     cursor: pointer;
-
     margin: 1rem auto;
-    border-radius: 0.8rem;
-
-    /* items position */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    border-radius: 0.4rem;
     font-size: 1.5rem;
 }
 .formulario{
@@ -60,7 +53,7 @@
     align-items: center;
 
     border-radius: 0.5rem;
-    border: 1px solid #B64B93;
+    border: 1px solid #FE963F;
 }
 
 .texto{
@@ -74,18 +67,19 @@
 
     align-items: flex-start;
 }
-.Email, .Password{
+.Username, .Password{
     margin-top: 1rem;
 }
 .detalle{
     display: flex;
     flex-direction: row;
+    margin-left: 1rem;
 }
 .asterisco{
-    color: #B64B93;
+    color: #FE963F;
 }
 label input{
-    border: 1px solid #B64B93;
+    border: 1px solid #FE963F;
     border-radius: 0.2rem;
     width: 23rem;
     height: 2.2rem;
@@ -94,14 +88,50 @@ label input{
     font-size: 0.7rem;
     padding: 1rem;
 }
-.siguiente{
+.contra{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 1rem;
+}
+.soluciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.olvideMiContraseña{
     display: none;
+    font-size: 0.7rem;
     text-decoration: none;
-    padding: 0.1rem;
-    background-color: #B64B93;
+    color: #FE963F;
+    font-weight: bolder;
+}
+
+.botonVer{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin: 0.3rem 0 0 0.3rem;
+    cursor: pointer;
+}
+.registrarte{
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    background-color: #FE963F;
     color: white;
     font-weight: 400;
-
+    margin: 0.6rem;
+    border-radius: 2rem;
+}
+.siguiente{
+    text-decoration: none;
+    display: none;
+    padding: 0.5rem 2rem;
+    background-color: #FE963F;
+    color: white;
+    font-weight: 400;
+    margin: 0.6rem;
+    border-radius: 2rem;
 }
 .activar{
     display: block;
