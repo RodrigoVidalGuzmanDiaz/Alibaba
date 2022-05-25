@@ -24,6 +24,13 @@
 }
 
 /* FORMULARIO */
+.alibaba_foto{
+    width: 11rem;
+    border: 1px solid #FE963F;
+    border-radius: 20%;
+    margin-bottom: -2rem;
+    background-color: #fff;
+}
 .titulo{
     color: #FE963F;
     font-weight: 900;
